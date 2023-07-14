@@ -1708,6 +1708,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@eventstore-ui/design-system-root@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@eventstore-ui/design-system-root@workspace:."
+  dependencies:
+    "@changesets/cli": ^2.26.2
+    "@eventstore-ui/configs": "workspace:*"
+    "@typescript-eslint/eslint-plugin": ^5.6.0
+    "@typescript-eslint/parser": ^5.6.0
+    eslint: ^8.4.0
+    npm-run-all: ^4.1.5
+    nx: 15.5.1
+    prettier: ^2.2.1
+    typescript: 4.9.4
+  languageName: unknown
+  linkType: soft
+
 "@eventstore-ui/docs@workspace:documentation":
   version: 0.0.0-use.local
   resolution: "@eventstore-ui/docs@workspace:documentation"
