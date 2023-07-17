@@ -58,7 +58,9 @@ jobs:
                   createGithubReleases: true
               env:
                   # The GitHub token is used to authenticate with GitHub
-                  # Allow GiHub Actions to create and manage pull requests < Need this to be enabled at
-                  # https://github.com/teamchong/Design-System/settings/actions
+                  # Setting: https://github.com/EventStore/Design-System/settings/actions
+                  # The following permissions are required in Workflow permissions:
+                  # 1. Read and write permissions
+                  # 2. Allow GiHub Actions to create and manage pull requests
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
