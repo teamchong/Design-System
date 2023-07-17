@@ -57,7 +57,8 @@ jobs:
                   # These releases will be created when the PR is merged and the new versions are published.
                   createGithubReleases: true
               env:
-                  # The GitHub token is used to authenticate with GitHub to
-                  # create pull requests and releases.
+                  # The GitHub token is used to authenticate with GitHub
+                  # Allow GiHub Actions to create and manage pull requests < Need this to be enabled at
+                  # https://github.com/teamchong/Design-System/settings/actions
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
