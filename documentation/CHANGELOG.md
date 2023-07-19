@@ -1,5 +1,21 @@
 # @eventstore-ui/docs
 
+## 0.1.1
+
+### Patch Changes
+
+-   Updated dependencies [[`e746484`](https://github.com/teamchong/Design-System/commit/e7464847b3aad5626553ac3ee8a76bfaf6f501e3)]:
+    -   @eventstore-ui/utils@0.1.10
+    -   @eventstore-ui/components@0.1.10
+    -   @eventstore-ui/editor@0.1.10
+    -   @eventstore-ui/fields@0.1.10
+    -   @eventstore-ui/forms@0.1.10
+    -   @eventstore-ui/layout@0.1.10
+    -   @eventstore-ui/router@0.1.10
+    -   @eventstore-ui/stores@0.1.10
+    -   @eventstore-ui/theme@0.1.10
+    -   @eventstore-ui/illustrations@0.1.10
+
 ## 0.1.0
 
 ### Patch Changes
