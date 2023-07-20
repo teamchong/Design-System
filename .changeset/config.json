@@ -24,11 +24,15 @@
             "@eventstore-ui/typedoc-plugin-usage"
         ],
         ["router-demo", "stores-demo", "@eventstore-ui/docs"]
-    ],
-    "linked": [],
+    ],    "linked": [],
     "access": "public",
     "baseBranch": "main",
     "updateInternalDependencies": "patch",
-    "ignore": [],
+    "ignore": [
+        "stores-demo",
+        "router-demo",
+        "@eventstore-ui/docs",
+        "forms-demo"
+    ],
     "privatePackages": false
 }
