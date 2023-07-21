@@ -57,7 +57,10 @@ jobs:
                   # These releases will be created when the PR is merged and the new versions are published.
                   createGithubReleases: true
               env:
-                  # The GitHub token is used to authenticate with GitHub to
-                  # create pull requests and releases.
+                  # The GitHub token is used to authenticate with GitHub
+                  # Setting: https://github.com/EventStore/Design-System/settings/actions
+                  # The following permissions are required in Workflow permissions:
+                  # 1. Read and write permissions
+                  # 2. Allow GiHub Actions to create and manage pull requests
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

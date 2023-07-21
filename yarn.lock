@@ -1691,9 +1691,9 @@ __metadata:
     typedoc: 0.23.24
     typescript: 4.9.4
   peerDependencies:
-    "@eventstore-ui/router": 0.1.9
-    "@eventstore-ui/theme": 0.1.9
-    "@eventstore-ui/utils": 0.1.9
+    "@eventstore-ui/router": 0.1
+    "@eventstore-ui/theme": 0.1
+    "@eventstore-ui/utils": 0.1
   languageName: unknown
   linkType: soft
 
@@ -1770,9 +1770,9 @@ __metadata:
     typedoc: 0.23.24
     typescript: 4.9.4
   peerDependencies:
-    "@eventstore-ui/components": 0.1.9
-    "@eventstore-ui/theme": 0.1.9
-    "@eventstore-ui/utils": 0.1.9
+    "@eventstore-ui/components": 0.1
+    "@eventstore-ui/theme": 0.1
+    "@eventstore-ui/utils": 0.1
   languageName: unknown
   linkType: soft
 
@@ -1793,9 +1793,9 @@ __metadata:
     typedoc: 0.23.24
     typescript: 4.9.4
   peerDependencies:
-    "@eventstore-ui/components": 0.1.9
-    "@eventstore-ui/theme": 0.1.9
-    "@eventstore-ui/utils": 0.1.9
+    "@eventstore-ui/components": 0.1
+    "@eventstore-ui/theme": 0.1
+    "@eventstore-ui/utils": 0.1
   languageName: unknown
   linkType: soft
 
@@ -1818,9 +1818,9 @@ __metadata:
     typedoc: 0.23.24
     typescript: 4.9.4
   peerDependencies:
-    "@eventstore-ui/components": 0.1.9
-    "@eventstore-ui/stores": 0.1.9
-    "@eventstore-ui/utils": 0.1.9
+    "@eventstore-ui/components": 0.1
+    "@eventstore-ui/stores": 0.1
+    "@eventstore-ui/utils": 0.1
   languageName: unknown
   linkType: soft
 
@@ -1860,7 +1860,7 @@ __metadata:
     typescript: 4.9.4
     yargs: ^15.3.1
   peerDependencies:
-    "@eventstore-ui/theme": 0.1.9
+    "@eventstore-ui/theme": 0.1
   languageName: unknown
   linkType: soft
 
@@ -1882,11 +1882,11 @@ __metadata:
     typedoc: 0.23.24
     typescript: 4.9.4
   peerDependencies:
-    "@eventstore-ui/components": 0.1.9
-    "@eventstore-ui/illustrations": 0.1.9
-    "@eventstore-ui/router": 0.1.9
-    "@eventstore-ui/theme": 0.1.9
-    "@eventstore-ui/utils": 0.1.9
+    "@eventstore-ui/components": 0.1
+    "@eventstore-ui/illustrations": 0.1
+    "@eventstore-ui/router": 0.1
+    "@eventstore-ui/theme": 0.1
+    "@eventstore-ui/utils": 0.1
   languageName: unknown
   linkType: soft
 
@@ -1906,7 +1906,7 @@ __metadata:
     typedoc: 0.23.24
     typescript: 4.9.4
   peerDependencies:
-    "@eventstore-ui/utils": 0.1.9
+    "@eventstore-ui/utils": 0.1
   languageName: unknown
   linkType: soft
 
@@ -1946,7 +1946,7 @@ __metadata:
     typedoc: 0.23.24
     typescript: 4.9.4
   peerDependencies:
-    "@eventstore-ui/utils": 0.1.9
+    "@eventstore-ui/utils": 0.1
   languageName: unknown
   linkType: soft
 
@@ -1965,7 +1965,7 @@ __metadata:
     typedoc: 0.23.24
     typescript: 4.9.4
   peerDependencies:
-    "@eventstore-ui/utils": 0.1.9
+    "@eventstore-ui/utils": 0.1
   languageName: unknown
   linkType: soft
 
@@ -4598,6 +4598,13 @@ __metadata:
     domelementtype: ^2.2.0
     domhandler: ^4.2.0
   checksum: abf7434315283e9aadc2a24bac0e00eab07ae4313b40cc239f89d84d7315ebdfd2fb1b5bf750a96bc1b4403d7237c7b2ebf60459be394d625ead4ca89b934391
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.3.1":
+  version: 16.3.1
+  resolution: "dotenv@npm:16.3.1"
+  checksum: 15d75e7279018f4bafd0ee9706593dd14455ddb71b3bcba9c52574460b7ccaf67d5cf8b2c08a5af1a9da6db36c956a04a1192b101ee102a3e0cf8817bbcf3dfd
   languageName: node
   linkType: hard
 
@@ -9444,9 +9451,12 @@ __metadata:
   dependencies:
     "@changesets/changelog-github": ^0.4.8
     "@changesets/cli": ^2.26.2
+    "@changesets/get-github-info": ^0.5.2
+    "@changesets/types": ^5.2.1
     "@eventstore-ui/configs": "workspace:*"
     "@typescript-eslint/eslint-plugin": ^5.6.0
     "@typescript-eslint/parser": ^5.6.0
+    dotenv: ^16.3.1
     eslint: ^8.4.0
     npm-run-all: ^4.1.5
     nx: 15.5.1
