@@ -4601,6 +4601,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:^16.3.1":
+  version: 16.3.1
+  resolution: "dotenv@npm:16.3.1"
+  checksum: 15d75e7279018f4bafd0ee9706593dd14455ddb71b3bcba9c52574460b7ccaf67d5cf8b2c08a5af1a9da6db36c956a04a1192b101ee102a3e0cf8817bbcf3dfd
+  languageName: node
+  linkType: hard
+
 "dotenv@npm:^8.1.0":
   version: 8.6.0
   resolution: "dotenv@npm:8.6.0"
@@ -9444,9 +9451,12 @@ __metadata:
   dependencies:
     "@changesets/changelog-github": ^0.4.8
     "@changesets/cli": ^2.26.2
+    "@changesets/get-github-info": ^0.5.2
+    "@changesets/types": ^5.2.1
     "@eventstore-ui/configs": "workspace:*"
     "@typescript-eslint/eslint-plugin": ^5.6.0
     "@typescript-eslint/parser": ^5.6.0
+    dotenv: ^16.3.1
     eslint: ^8.4.0
     npm-run-all: ^4.1.5
     nx: 15.5.1
