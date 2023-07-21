@@ -25,3 +25,7 @@ import '@eventstore-ui/components';
 ```
 
 Then you can use the element anywhere in your JSX, html, templates etc.
+
+# Testing changeset workflow
+
+- test 1
