@@ -1,11 +1,8 @@
-import { ChangelogFunctions } from "@changesets/types";
-// @ts-ignore
-import { config } from "dotenv";
-import { getInfo, getInfoFromPullRequest } from "@changesets/get-github-info";
+const { getInfo, getInfoFromPullRequest } = require("@changesets/get-github-info");
 
-config();
+require("dotenv").config();
 
-const changelogFunctions: ChangelogFunctions = {
+const changelogFunctions = {
   getDependencyReleaseLine: async (
     changesets,
     dependenciesUpdated,
@@ -47,9 +44,9 @@ const changelogFunctions: ChangelogFunctions = {
       );
     }
 
-    let prFromSummary: number | undefined;
-    let commitFromSummary: string | undefined;
-    let usersFromSummary: string[] = [];
+    let prFromSummary;
+    let commitFromSummary;
+    let usersFromSummary = [];
 
     const replacedChangelog = changeset.summary
       .replace(/^\s*(?:pr|pull|pull\s+request):\s*#?(\d+)/im, (_, pr) => {
@@ -100,20 +97,7 @@ const changelogFunctions: ChangelogFunctions = {
       };
     })();
 
-    // const users = usersFromSummary.length
-    //   ? usersFromSummary
-    //       .map(
-    //         (userFromSummary) =>
-    //           `[@${userFromSummary}](https://github.com/${userFromSummary})`
-    //       )
-    //       .join(", ")
-    //   : links.user;
-
-    const prefix = [
-      // links.pull === null ? "" : ` ${links.pull}`,
-      links.commit === null ? "" : ` ${links.commit}`,
-      // users === null ? "" : ` Thanks ${users}!`,
-    ].join("");
+    const prefix = links.commit === null ? "" : ` ${links.commit}`;
 
     return `\n\n-${prefix ? `${prefix} -` : ""} ${firstLine}\n${futureLines
       .map((l) => `  ${l}`)
