@@ -1,9 +1,8 @@
 const { getInfo, getInfoFromPullRequest } = require("@changesets/get-github-info");
-import type { ChangelogFunctions } from "@changesets/types";
 
 require("dotenv").config();
 
-const changelogFunctions: ChangelogFunctions = {
+const changelogFunctions = {
   getDependencyReleaseLine: async (
     changesets,
     dependenciesUpdated,
@@ -11,7 +10,7 @@ const changelogFunctions: ChangelogFunctions = {
   ) => {
     if (!options.repo) {
       throw new Error(
-        'Please provide a repo to this changelog generator like this:\n"changelog": ["./es-changelog-config.ts", { "repo": "org/repo" }]'
+        'Please provide a repo to this changelog generator like this:\n"changelog": ["./es-changelog-config.js", { "repo": "org/repo" }]'
       );
     }
     if (dependenciesUpdated.length === 0) return "";
@@ -41,7 +40,7 @@ const changelogFunctions: ChangelogFunctions = {
   getReleaseLine: async (changeset, type, options) => {
     if (!options || !options.repo) {
       throw new Error(
-        'Please provide a repo to this changelog generator like this:\n"changelog": ["./es-changelog-config.ts", { "repo": "org/repo" }]'
+        'Please provide a repo to this changelog generator like this:\n"changelog": ["./es-changelog-config.js", { "repo": "org/repo" }]'
       );
     }
 
