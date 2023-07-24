@@ -5,7 +5,21 @@
         { "repo": "teamchong/Design-System" }
     ],
     "commit": false,
-    "fixed": [],
+    "fixed": [
+        [
+            "@eventstore-ui/editor",
+            "@eventstore-ui/fields",
+            "@eventstore-ui/theme",
+            "@eventstore-ui/router",
+            "@eventstore-ui/assets",
+            "@eventstore-ui/stores",
+            "@eventstore-ui/utils",
+            "@eventstore-ui/components",
+            "@eventstore-ui/forms",
+            "@eventstore-ui/illustrations",
+            "@eventstore-ui/layout"
+        ]
+    ],
     "linked": [],
     "access": "public",
     "baseBranch": "main",
