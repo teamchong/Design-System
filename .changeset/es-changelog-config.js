@@ -10,7 +10,7 @@ const changelogFunctions = {
   ) => {
     if (!options.repo) {
       throw new Error(
-        'Please provide a repo to this changelog generator like this:\n"changelog": ["./es-changelog-config.js", { "repo": "org/repo" }]'
+        'Please provide a repo to this changelog generator like this:\n"changelog": ["./es-changelog-config.ts", { "repo": "org/repo" }]'
       );
     }
     if (dependenciesUpdated.length === 0) return "";
@@ -40,7 +40,7 @@ const changelogFunctions = {
   getReleaseLine: async (changeset, type, options) => {
     if (!options || !options.repo) {
       throw new Error(
-        'Please provide a repo to this changelog generator like this:\n"changelog": ["./es-changelog-config.js", { "repo": "org/repo" }]'
+        'Please provide a repo to this changelog generator like this:\n"changelog": ["./es-changelog-config.ts", { "repo": "org/repo" }]'
       );
     }
 
