@@ -11,6 +11,7 @@
     "baseBranch": "main",
     "updateInternalDependencies": "patch",
     "ignore": [
+        "@eventstore-ui/docs",
         "stores-demo",
         "router-demo",
         "@eventstore-ui/docs",
