@@ -1,7 +1,6 @@
 import { getInfo, getInfoFromPullRequest } from "@changesets/get-github-info";
-import dotenv from "dotenv";
 
-dotenv.config();
+require("dotenv").config();
 
 const changelogFunctions = {
   getDependencyReleaseLine: async (
@@ -106,4 +105,4 @@ const changelogFunctions = {
   },
 };
 
-export default changelogFunctions;
+module.exports = changelogFunctions;
