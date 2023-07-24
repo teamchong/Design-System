@@ -9,3 +9,6 @@ Helpful utilities for the Event Store design system. These utililities are used 
 ```sh
 yarn add @eventstore-ui/utils
 ```
+
+
+# Test utils patch bump
