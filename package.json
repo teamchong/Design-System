@@ -25,6 +25,7 @@
     "devDependencies": {
         "@changesets/cli": "^2.26.2",
         "@changesets/get-github-info": "^0.5.2",
+        "@changesets/types": "^5.2.1",
         "@eventstore-ui/configs": "workspace:*",
         "@typescript-eslint/eslint-plugin": "^5.6.0",
         "@typescript-eslint/parser": "^5.6.0",
