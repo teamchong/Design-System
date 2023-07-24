@@ -1,5 +1,14 @@
 # @eventstore-ui/components
 
+## 0.1.10
+
+### Patch Changes
+
+-   Updated dependencies [[`cd44030`](https://github.com/EventStore/Design-System/commit/cd44030b8180350fdc97b6a2600ebe7d28a9c9b0)]:
+    -   @eventstore-ui/utils@0.1.9
+    -   @eventstore-ui/router@0.1.9
+    -   @eventstore-ui/theme@0.1.9
+
 ## 0.1.9
 
 ### Patch Changes
