@@ -3,3 +3,5 @@
 ---
 
 minor bump testing
+- A
+- B
