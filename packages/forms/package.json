@@ -1,6 +1,6 @@
 {
     "name": "@eventstore-ui/forms",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Form validation and working copy data store.",
     "license": "Apache-2.0",
     "main": "dist/index.js",
@@ -35,9 +35,9 @@
         }
     },
     "peerDependencies": {
-        "@eventstore-ui/components": "^1.0.0",
-        "@eventstore-ui/stores": "^1.0.0",
-        "@eventstore-ui/utils": "^1.0.0"
+        "@eventstore-ui/components": "^2.0.0",
+        "@eventstore-ui/stores": "^2.0.0",
+        "@eventstore-ui/utils": "^2.0.0"
     },
     "devDependencies": {
         "@babel/core": "^7.12.10",
