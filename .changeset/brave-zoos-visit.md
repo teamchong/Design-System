@@ -2,4 +2,4 @@
 '@eventstore-ui/components': patch
 ---
 
-minor testing 1
+patch testing 1
